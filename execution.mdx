@@ -21,7 +21,7 @@ or a Monaco but im adding that in the Future
 <CodeGroup>
 
 ```csharp npm
-Api.Execute(YourEditorName.Text);
+Api.execute(YourEditorName.Text);
 ```
 
 </CodeGroup>
@@ -30,3 +30,20 @@ Heres what you can do to make it work:\
 \
 when you have Put one editors from the Choices above Click On it and name it what ever you want\
 and replace the "YourEditorName" in the code with the name of your editor
+
+**example**:
+
+<CodeGroup>
+
+```csharp execute example
+Api.execute("print('HIIII')");
+```
+
+
+``` Editor example
+Api.execute(HydroTextBox.Text);
+```
+
+</CodeGroup>
+
+replace the "HydroTextBox" with the name of your textbox
