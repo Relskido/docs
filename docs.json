@@ -17,8 +17,8 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "Injection",
+              "Execution"
             ]
           },
           {
@@ -34,15 +34,7 @@
           }
         ]
       },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
+      
           {
             "group": "Endpoint Examples",
             "pages": [
